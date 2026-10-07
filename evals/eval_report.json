@@ -1,0 +1,144 @@
+{
+  "checks": [
+    {
+      "detail": "n=969",
+      "name": "corpus_size_in_range",
+      "pass": true
+    },
+    {
+      "detail": "32/32",
+      "name": "all_seed_ids_present",
+      "pass": true
+    },
+    {
+      "detail": "9 categories",
+      "name": "all_categories_present",
+      "pass": true
+    },
+    {
+      "detail": "min per-category n=91",
+      "name": "per_category_count_ge_24",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "coverage_K8_F4",
+      "pass": true
+    },
+    {
+      "detail": "969 ok",
+      "name": "replay_exact_all",
+      "pass": true
+    },
+    {
+      "detail": "2fe59516089dcea3e267aa70e21ddf2d",
+      "name": "determinism_md5_twice",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "export_byte_identical_twice",
+      "pass": true
+    },
+    {
+      "detail": "clean",
+      "name": "benign_no_framing_markers",
+      "pass": true
+    },
+    {
+      "detail": "clean",
+      "name": "benign_lineage_no_attack_framing",
+      "pass": true
+    },
+    {
+      "detail": "ok",
+      "name": "novelty_in_unit_interval",
+      "pass": true
+    },
+    {
+      "detail": "lowest mean=0.3341",
+      "name": "per_category_mean_novelty_ge_0.20",
+      "pass": true
+    },
+    {
+      "detail": "lowest min=0.0051",
+      "name": "per_category_min_novelty_ge_0.005",
+      "pass": true
+    },
+    {
+      "detail": "0.957",
+      "name": "fraction_novel_ge_90pct",
+      "pass": true
+    },
+    {
+      "detail": "0.0188",
+      "name": "pairwise_min_distance_gt_0",
+      "pass": true
+    },
+    {
+      "detail": "n=969",
+      "name": "dedup_no_duplicate_canonical",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "variant_ids_unique",
+      "pass": true
+    },
+    {
+      "detail": "ok",
+      "name": "lineage_labels_all_known",
+      "pass": true
+    },
+    {
+      "detail": "24 attack / 8 benign",
+      "name": "seeds_json_valid",
+      "pass": true
+    },
+    {
+      "detail": "clean",
+      "name": "no_secrets_in_repo",
+      "pass": true
+    },
+    {
+      "detail": "ok",
+      "name": "all_families_used",
+      "pass": true
+    },
+    {
+      "detail": "n_pairs=557",
+      "name": "pair_variants_present",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "report_serialization_deterministic",
+      "pass": true
+    }
+  ],
+  "corpus_md5": "2fe59516089dcea3e267aa70e21ddf2d",
+  "evals_version": 1,
+  "metrics": {
+    "mean_novelty": 0.376447,
+    "min_novelty": 0.005128,
+    "n_pairs": 557,
+    "n_variants": 969,
+    "pair_budget": 24,
+    "pairwise_min_distance": 0.018797,
+    "per_category_mean_novelty": {
+      "benign_control": 0.337234,
+      "direct_instruction_override": 0.388792,
+      "disallowed_content": 0.389651,
+      "jailbreak_roleplay": 0.394223,
+      "pii_extraction": 0.407818,
+      "refusal_evasion_rephrase": 0.408574,
+      "social_engineering_urgency": 0.3608,
+      "system_prompt_leakage": 0.4089,
+      "tool_output_injection": 0.334053
+    }
+  },
+  "n_seeds": 32,
+  "passed": 23,
+  "seed_value": 1337,
+  "total": 23
+}
