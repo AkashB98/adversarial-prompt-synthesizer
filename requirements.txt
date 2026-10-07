@@ -1,0 +1,2 @@
+# Python stdlib only — no third-party packages required.
+# (empty by design)
